@@ -1,7 +1,11 @@
 -- Creating and connecting to the database
+/*
+-- Enable the commands in this block removing the slash-asterisk / asterisk-slash
+-- if you want to run it in psql
 DROP DATABASE IF EXISTS gaming_leaderboard;
 CREATE DATABASE gaming_leaderboard WITH ENCODING = 'UTF8';
 \connect gaming_leaderboard
+*/
 
 -- Tables of our gaming_leaderboard project
 CREATE TABLE players (
