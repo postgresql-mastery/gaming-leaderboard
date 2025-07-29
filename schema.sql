@@ -1,3 +1,9 @@
+-- Creating and connecting to the database
+DROP DATABASE IF EXISTS gaming_leaderboard;
+CREATE DATABASE gaming_leaderboard WITH ENCODING = 'UTF8';
+\connect -reuse-previous=on "dbname='gaming-leaderboard'"
+
+-- Tables of our gaming_leaderboard project
 CREATE TABLE players (
   player_id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
   username VARCHAR(50) NOT NULL UNIQUE,
