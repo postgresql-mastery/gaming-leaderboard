@@ -6,7 +6,7 @@ INSERT INTO players (username, registration_date, skill_rating) VALUES
 ('MysticGamer', CURRENT_TIMESTAMP - INTERVAL '1 year, 6 months, 12 hours', 1675),
 ('CyberViking', CURRENT_TIMESTAMP - INTERVAL '1 year, 10 days, 4 hours', 1000),
 ('StealthNinja', NULL, 1425), -- For NULL registration_date example
-('AzureKnight', CURRENT_TIMESTAMP - INTERVAL '1 year, 1 month, 12 hours', 1300);
+('AzureKnight', CURRENT_TIMESTAMP - INTERVAL '1 year, 1 month, 12 hours', 1220);
 
 INSERT INTO matches (game_type, start_time, end_time) VALUES
 ('Team Deathmatch', CURRENT_TIMESTAMP - INTERVAL '10 months, 30 minutes', CURRENT_TIMESTAMP - INTERVAL '10 months'),
