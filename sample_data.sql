@@ -1,6 +1,6 @@
 INSERT INTO players (username, registration_date, skill_rating) VALUES
-('ShadowMaster', CURRENT_TIMESTAMP - INTERVAL '1 year, 3 months, 4 hours', 1450),
-('PixelQueen', CURRENT_TIMESTAMP - INTERVAL '1 year, 2 months', 1320),
+('ShadowMaster', CURRENT_TIMESTAMP - INTERVAL '1 year, 7 months, 4 hours', 1450),
+('PixelQueen', CURRENT_TIMESTAMP - INTERVAL '1 year, 6 months', 1320),
 ('DragonSlayer42', CURRENT_TIMESTAMP - INTERVAL '1 year, 1 month', 1550),
 ('NeonBlade', CURRENT_TIMESTAMP - INTERVAL '1 year', 1220),
 ('MysticGamer', CURRENT_TIMESTAMP - INTERVAL '1 year, 6 months, 12 hours', 1675),
